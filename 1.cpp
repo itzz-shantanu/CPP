@@ -8,11 +8,13 @@ int main()
     bool c = false;
     float d = 1.2;
     double e = 1.23;
+    unsigned int a1 = -123;
     cout << a << endl;
     cout << b << endl;
     cout << c << endl;
     cout << d << endl;
     cout << e << endl;
+    cout << a1 << endl; // bcz of MSB it will print large value as it is given it should be unsigned only
     cout << sizeof(a) << sizeof(b) << sizeof(c) << sizeof(d) << sizeof(e) << endl;
     int f = 'b';
     char ch = 98;
