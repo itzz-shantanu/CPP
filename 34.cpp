@@ -1,4 +1,21 @@
-// fibonacci series & prime or not
+// continue statement
+#include <iostream>
+using namespace std;
+int main()
+{
+    for (int i = 0; i < 5; i++)
+    {
+        cout << "Hi" << endl;
+        cout << "Hey" << endl;
+        continue;
+        cout << "Reply toh karde" << endl;
+    }
+
+    return 0;
+}
+
+/*
+// break statement (prime or not)
 #include <iostream>
 using namespace std;
 int main()
@@ -27,8 +44,11 @@ int main()
 
     return 0;
 }
+*/
 
-/*include <iostream>
+/*
+// fibonacci series & prime or not
+include <iostream>
 using namespace std;
 int main()
 {
